@@ -1,4 +1,3 @@
-import { buyIceCream } from "./IceCreamActions";
 import { BUY_ICECREAM } from "./IceCreamTypes";
 
 const initialState = {

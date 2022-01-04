@@ -6,6 +6,7 @@ import Cake from "./components/Cake";
 import CakeHooks from "./components/CakeHooks";
 import IceCream from "./components/IceCream";
 import NewCake from "./components/NewCake";
+import Users from "./components/User";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         <IceCream />
         <hr />
         <NewCake />
+        <br />
+        <br />
+        <Users />
         <br />
         <br />
       </Provider>
