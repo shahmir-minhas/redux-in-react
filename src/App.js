@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Cake from "./components/Cake";
 import { Provider } from "react-redux";
 import store from "./Redux/store";
+import Cake from "./components/Cake";
 import CakeHooks from "./components/CakeHooks";
 import IceCream from "./components/IceCream";
+import NewCake from "./components/NewCake";
 
 function App() {
   return (
@@ -15,6 +16,10 @@ function App() {
         <CakeHooks />
         <hr />
         <IceCream />
+        <hr />
+        <NewCake />
+        <br />
+        <br />
       </Provider>
     </div>
   );
