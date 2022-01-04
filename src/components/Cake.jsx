@@ -17,7 +17,7 @@ const Cake = (props) => {
 //i.e what ever props component recieve it will add additional props of state
 const mapStateToProps = (state) => {
   return {
-    numberOfCakes: state.numberOfCakes,
+    numberOfCakes: state.cake.numberOfCakes,
   };
 };
 

@@ -4,6 +4,7 @@ import Cake from "./components/Cake";
 import { Provider } from "react-redux";
 import store from "./Redux/store";
 import CakeHooks from "./components/CakeHooks";
+import IceCream from "./components/IceCream";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Cake />
         <hr />
         <CakeHooks />
+        <hr />
+        <IceCream />
       </Provider>
     </div>
   );

@@ -6,7 +6,7 @@ import { buyCake } from "../Redux/Cake/CakeActions";
 const CakeHooks = () => {
   //useselector will get the number of cakes from state
   // alternative to mapStateToProp
-  const numberOfCakes = useSelector((state) => state.numberOfCakes);
+  const numberOfCakes = useSelector((state) => state.cake.numberOfCakes);
 
   //usedispatch will map dispatch
   const dispatch = useDispatch();
